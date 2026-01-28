@@ -9,7 +9,6 @@ The goal is **DSA mastery in Java** with clean implementations, strong fundament
 ## 📌 Source
 
 **Striver’s A2Z DSA Sheet – Learn DSA from A to Z**
-Last updated: **December 13, 2025**
 Total Problems: **455**
 
 > Later, each section below will contain links that redirect to the **exact Java solution files** in this repository.
