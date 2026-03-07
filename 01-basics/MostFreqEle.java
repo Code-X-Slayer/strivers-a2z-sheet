@@ -35,7 +35,7 @@ public class MostFreqEle {
             int l=0, r=i, best=i;
             while(l<=r){
                 int m = l+(r-l)/2;
-                long sum = pre[r]-(m>0?pre[m-1]:0);
+                long sum = pre[i]-(m>0?pre[m-1]:0);
                 long cost = (long)(i-m+1)*nums[i]-sum;
                 if(cost<=k) {best=m; r=m-1;}
                 else {l=m+1;}
