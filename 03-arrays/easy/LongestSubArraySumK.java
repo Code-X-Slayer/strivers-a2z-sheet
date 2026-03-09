@@ -33,7 +33,7 @@ public class LongestSubArraySumK {
         for(int i=1; i<arr.length; i++){
             pre[i] = pre[i-1] + arr[i];
         }
-        for(int pos=arr.length; pos>=1; pos++){
+        for(int pos=arr.length; pos>=1; pos--){
             if(check(arr, pre, pos, k)) {return pos;}
         }
         return 0;
@@ -42,12 +42,12 @@ public class LongestSubArraySumK {
     // O(n, n)
     private static int v2(int[] arr, int k){
         HashMap<Long, Integer> vis = new HashMap<>();
+        vis.put((long)0, -1);
         long curr = 0;
         int max = 0;
         for(int i=0; i<arr.length; i++){
             curr+=arr[i];
-            if(curr==k) {max=i+1;}
-            else if(vis.containsKey(curr-k)) {max=Math.max(max, i-vis.get(curr-k));}
+            if(vis.containsKey(curr-k)) {max=Math.max(max, i-vis.get(curr-k));}
             vis.putIfAbsent(curr, i);
         }
         return max;
