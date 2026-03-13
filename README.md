@@ -30,10 +30,10 @@ Total Problems: **455**
 
 ## 📊 Progress Tracker
 
-* Overall Progress: **0 / 455**
-* Easy: **0 / 128**
-* Medium: **0 / 178**
-* Hard: **0 / 149**
+* Overall Progress: **78 / 454**
+* Easy: **51 / 134**
+* Medium: **21 / 183**
+* Hard: **6 / 137**
 
 (Updated manually as problems are completed.)
 
@@ -45,15 +45,15 @@ Total Problems: **455**
 
 ### 1. Learn the Basics
 
-**0 / 31**
+**31 / 31**
 
 ### 2. Learn Important Sorting Techniques
 
-**0 / 7**
+**7 / 7**
 
 ### 3. Solve Problems on Arrays [Easy → Medium → Hard]
 
-**0 / 40**
+**40 / 40**
 
 ### 4. Binary Search [1D, 2D Arrays, Search Space]
 
