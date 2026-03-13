@@ -31,8 +31,8 @@ Total Problems: **455**
 ## 📊 Progress Tracker
 
 * Overall Progress: **78 / 454**
-* Easy: **51 / 134**
-* Medium: **21 / 183**
+* Easy: **61 / 134**
+* Medium: **24 / 183**
 * Hard: **6 / 137**
 
 (Updated manually as problems are completed.)
@@ -57,7 +57,7 @@ Total Problems: **455**
 
 ### 4. Binary Search [1D, 2D Arrays, Search Space]
 
-**0 / 32**
+**13 / 32**
 
 ### 5. Strings [Basic and Medium]
 
